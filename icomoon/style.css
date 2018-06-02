@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?kcsyft');
+  src:  url('fonts/icomoon.eot?kcsyft#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kcsyft') format('truetype'),
+    url('fonts/icomoon.woff?kcsyft') format('woff'),
+    url('fonts/icomoon.svg?kcsyft#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.notHelpfulbtn, .helpfulbtn, #homebtn, #showLessbtn, #showMorebtn {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#homebtn:before {
+  content: "\e902";
+}
+.notHelpfulbtn:before {
+  content: "\e900";
+}
+.helpfulbtn:before {
+  content: "\e901";
+}
+#showLessbtn:before {
+  content: "\ea41";
+}
+#showMorebtn:before {
+  content: "\ea43";
+}
